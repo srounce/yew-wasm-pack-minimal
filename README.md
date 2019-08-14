@@ -16,8 +16,8 @@ Enter `wasm-pack build --target web` from your project's root directory.
 
 ### 3) [optional] Test Run
 
-Run a webserver from your project's root directory, such as with `python -m SimpleHTTPServer 8080`, to view the results.
+Run a webserver from the created `dist` directory, such as with `python -m SimpleHTTPServer 8080`, to view the results.
 
 ### 4) Deploy
 
-Access your generated build artifacts in ./pkg from your project's root directory.
+Access your generated build artifacts in ./dist from your project's root directory.
